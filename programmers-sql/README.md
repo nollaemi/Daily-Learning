@@ -35,22 +35,22 @@
 ---
 
 ## 02-Filtering
-
-- **Comparison**
-  - `=`
-  - `>`
-  - `<`
-  - `>=`
-  - `<=`
-  - `!=`
-
-- **Range**
-  - `BETWEEN`
-
-- **Multiple Conditions**
-  - `AND`
-  - `OR`
-  - `NOT`
+- **Operator ** # 연산자
+  - **Comparison**
+    - `=`
+    - `>`
+    - `<`
+    - `>=`
+    - `<=`
+    - `!=`
+  
+  - **Range**
+    - `BETWEEN`
+  
+  - **Multiple Conditions**
+    - `AND`
+    - `OR`
+    - `NOT`
 
 - **Pattern Matching**
   - `LIKE`
