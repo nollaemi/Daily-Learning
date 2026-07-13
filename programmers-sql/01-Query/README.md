@@ -1,4 +1,4 @@
-01-Retrieval
+## 01-Retrieval
 ```text
 │
 ├── Column Selection     # 컬럼 선택 (SELECT)
