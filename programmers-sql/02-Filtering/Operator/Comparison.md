@@ -20,10 +20,12 @@ WHERE SALARY >= 5000;
 ---
 - **기본문법:**
 ```sql
-WHERE col BETWEEN cond1 AND cond2```
+WHERE col BETWEEN cond1 AND cond2
+```
 
 - **사용예시**
 ```sql
 SELECT COUNT(*) AS CNT
 FROM USER_INFO
-WHERE JOINED BETWEEN '2021-01-01' AND '2021-12-31'```
+WHERE JOINED BETWEEN '2021-01-01' AND '2021-12-31'
+```
