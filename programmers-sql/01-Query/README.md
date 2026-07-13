@@ -1,4 +1,5 @@
 01-Retrieval
+```text
 │
 ├── Column Selection     # 컬럼 선택 (SELECT)
 ├── Row Selection        # 행 선택 (DISTINCT, LIMIT, OFFSET)
