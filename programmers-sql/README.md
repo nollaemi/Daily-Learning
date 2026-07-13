@@ -35,7 +35,7 @@
 ---
 
 ## 02-Filtering
-- **Operator ** # 연산자
+- **Operator** # 연산자
   - **Comparison**
     - `=`
     - `>`
