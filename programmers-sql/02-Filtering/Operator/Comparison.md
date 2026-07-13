@@ -29,3 +29,7 @@ SELECT COUNT(*) AS CNT
 FROM USER_INFO
 WHERE JOINED BETWEEN '2021-01-01' AND '2021-12-31'
 ```
+- **잘못된예시**
+```sql
+WHERE cond1 <= col <= cond2
+```
