@@ -11,7 +11,7 @@ ORDER BY col ASC/DESC
 LIMIT N
 ```
 
-## 기타 최대/최솟값 출력
+## 기타 최대/최솟값 조회
 
 ---
 - **최댓값 필요한 경우**: MAX(col)
