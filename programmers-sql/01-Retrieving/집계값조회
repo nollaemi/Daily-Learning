@@ -1,0 +1,16 @@
+## 집계함수: SUM(), AVG(), MIN(), MAX()
+- **기본문법**
+```sql
+SELECT SUM(num_col) -- 해당 컬럼의 NULL이 아닌 값의 합계
+SELECT AVG(num_col) -- 해당 컬럼의 NULL이 아닌 값의 평균
+SELECT MIN(col)     -- col은 비교 가능한 값을 가진 컬럼 (숫자, 문자열, 날짜 등)
+SELECT MAX(col)
+```
+---
+## 집계함수: COUNT()
+- **기본문법**
+```sql
+SELECT COUNT(*)             -- 전체 행의 개수/ 해당하는 레코드 개수 출력
+SELECT COUNT(col)           -- 해당 컬럼의 NULL이 아닌 값의 개수
+SELECT COUNT(DISTINCT col)  -- 해당 컬럼의 고유값 중 NULL이 아닌 것의 개수
+```
