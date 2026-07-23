@@ -1,6 +1,4 @@
 ## 비교연산자
-
----
 - **비교연산자 종류**:  `=` `<>`, `!=`, `>` `<` `>=` `<=`/`BETWEEN`/`IS NULL`,`IS NOT NULL`
 - **기본문법:**
 ```sql
@@ -8,12 +6,9 @@ WHERE col ⟪비교연산자⟫ val
 WHERE col BETWEEN val1 AND val2
 WHERE col IS NULL/IS NOT NULL
 ```
-
-## 논리연산자
-
 ---
+## 논리연산자
 - **논리연산자 종류**: `AND`, `OR`, `IN`, `NOT`
-
 - **기본문법:**
 ```sql
 WHERE cond1 AND cond2
@@ -24,13 +19,12 @@ WHERE col IN(val1, val2), WHERE val IN(col1, col2)
 -- Python의 `isin()`과 같은 함수. 여러 조건을 한 번에 비교하려할 때 유용
 WHERE NOT cond
 ```
-
+---
 ## 특정 문자의 포함 여부: LIKE
 - **기본문법:**
 ```sql
 WHERE col LIKE substring
 ```
-
 - **substring 형태**: `_`,`%`,[] 를 사용
   - `_`는 substring 앞뒤 자리수를 지정
   - `%`는 substring 앞뒤 자리수 미지정(unknwon), 즉 중간 어디에든 해당 문자 포함되어 있으면 됨
