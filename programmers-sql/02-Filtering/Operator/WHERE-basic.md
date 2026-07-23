@@ -18,8 +18,9 @@ WHERE col IS NULL/IS NOT NULL
 ```sql
 WHERE cond1 AND cond2
 WHERE cond1 OR cond2
-WHERE col IN(val1, val2) 
+WHERE col IN(val1, val2), WHERE val IN(col1, col2)
 -- OR문에서 cond1과 cond2가 같은 column에 대해서 논리연산할 경우 IN() 사용
+-- 반대로 col1과 col2가 같은 val을 포함하고 있는지 여부를 검증할 경우도 IN() 사용
 -- Python의 `isin()`과 같은 함수. 여러 조건을 한 번에 비교하려할 때 유용
 WHERE NOT cond
 ```
